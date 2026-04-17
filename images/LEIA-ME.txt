@@ -1,0 +1,20 @@
+PASTA DE IMAGENS - DFL 2026
+===========================
+
+Coloque aqui as imagens do seu site.
+
+COMO USAR NO index.html:
+  <img src="images/minha-imagem.jpg" alt="Descrição" />
+
+COMO USAR NO css/styles.css:
+  background-image: url('../images/minha-imagem.jpg');
+
+FORMATOS RECOMENDADOS:
+  - .jpg / .jpeg → fotos e screenshots
+  - .png         → logos e imagens com fundo transparente
+  - .webp        → melhor compressão (substitui jpg/png)
+  - .svg         → ícones e logos vetoriais
+  - .ico         → favicon (coloque um favicon.ico aqui e ative no index.html)
+
+DICA: Para ativar o favicon, descomente essa linha no <head> do index.html:
+  <link rel="icon" href="images/favicon.ico" />
